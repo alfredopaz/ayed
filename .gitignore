@@ -1,0 +1,30 @@
+# Archivos generados por compilación
+*.o        # Archivos objeto
+*.out      # Archivos ejecutables en Linux
+*.a        # Archivos de bibliotecas estáticas
+*.so       # Archivos de bibliotecas compartidas
+
+# Archivos temporales y de respaldo de Vim
+*~
+*.swp
+*.swo
+*.swm
+*.un~
+*.bak
+
+# Archivos de depuración o volcados de memoria
+*.log
+core
+
+# Archivos específicos del sistema
+.DS_Store   # macOS (por si algún colaborador usa macOS)
+Thumbs.db   # Windows (por si alguien colabora desde este sistema)
+
+# Directorios comunes que no deben incluirse
+.idea/      # Configuración de IntelliJ/CLion
+.vscode/    # Configuración de Visual Studio Code
+
+# Archivos temporales generados por `make`
+*.d
+*.dSYM/     # Archivos de depuración de macOS (por si se usa ese sistema)
+
